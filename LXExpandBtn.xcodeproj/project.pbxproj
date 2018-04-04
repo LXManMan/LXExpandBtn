@@ -15,6 +15,7 @@
 		243C741120746493009E28AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C741020746493009E28AC /* main.m */; };
 		243C741B20746493009E28AC /* LXExpandBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C741A20746493009E28AC /* LXExpandBtnTests.m */; };
 		243C742620746493009E28AC /* LXExpandBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C742520746493009E28AC /* LXExpandBtnUITests.m */; };
+		243C7435207464F4009E28AC /* UIButton+LXExpandBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C7434207464F4009E28AC /* UIButton+LXExpandBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		243C742120746493009E28AC /* LXExpandBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXExpandBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		243C742520746493009E28AC /* LXExpandBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXExpandBtnUITests.m; sourceTree = "<group>"; };
 		243C742720746493009E28AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243C7433207464F4009E28AC /* UIButton+LXExpandBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LXExpandBtn.h"; sourceTree = "<group>"; };
+		243C7434207464F4009E28AC /* UIButton+LXExpandBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LXExpandBtn.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				243C740220746493009E28AC /* AppDelegate.m */,
 				243C740420746493009E28AC /* ViewController.h */,
 				243C740520746493009E28AC /* ViewController.m */,
+				243C7433207464F4009E28AC /* UIButton+LXExpandBtn.h */,
+				243C7434207464F4009E28AC /* UIButton+LXExpandBtn.m */,
 				243C740720746493009E28AC /* Main.storyboard */,
 				243C740A20746493009E28AC /* Assets.xcassets */,
 				243C740C20746493009E28AC /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				243C740620746493009E28AC /* ViewController.m in Sources */,
 				243C741120746493009E28AC /* main.m in Sources */,
+				243C7435207464F4009E28AC /* UIButton+LXExpandBtn.m in Sources */,
 				243C740320746493009E28AC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
